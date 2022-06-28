@@ -42,6 +42,10 @@ In infosec, we usually hear the terms `red team` and `blue team`. In the simples
 | `Bind shell` | "Binds" to a specific port on the target host and waits for a connection from our attack box. |
 | `Web shell` | Runs operating system commands via the web browser, typically not interactive or semi-interactive. It can also be used to run single commands (i.e., leveraging a file upload vulnerability and uploading a `PHP` script to run a single command.|
 
+[Reverse Shell - Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+
+[Bind Shell Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Bind%20Shell%20Cheatsheet.md)
+
 [Ports](https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-en-4/ch-ports.html)
 [Ports](https://packetlife.net/media/library/23/common-ports.pdf)
 [Top 1000](https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/)

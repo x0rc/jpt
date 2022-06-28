@@ -1,11 +1,9 @@
 # f1r57_h4ck
 
-Target: 157.245.46.136:32508
-
 ![[Pasted image 20220629000057.png]]
 
 Try to identify the services running on the server above, and then try to search to find public exploits to exploit them. Once you do, try to get the content of the '/flag.txt' file. (note: the web server may take a few seconds to start)
-`HTB{my_f1r57_h4ck}`
+- [x] HTB{my_f1r57_h4ck}
 
 ---
 
