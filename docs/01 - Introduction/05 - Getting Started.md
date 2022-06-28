@@ -18,23 +18,26 @@
 ---
 
 <details>
-  <summary>Task 1</summary>
-	
- Target: 10.129.62.97
+  <summary>T001</summary>
+  
+  ```
+	 Target: 10.129.62.97
 
-1. Perform an Nmap scan of the target. What is the version of the service that is running on port 8080?
+	1. Perform an Nmap scan of the target. What is the version of the service that is running on port 8080?
+		
 
 
-2. Perform an Nmap scan of the target and identify the non-default port that the telnet service running on.
+	2. Perform an Nmap scan of the target and identify the non-default port that the telnet service running on.
 
 
-3. List the SMB shares available on the target host. Connect to the available share as the bob user. Once connected, access the folder called 'flag' and submit the contents of the flag.txt file.
+	3. List the SMB shares available on the target host. Connect to the available share as the bob user. Once connected, access the folder called 'flag' and submit the contents of the flag.txt file.
+  ```
 
 </details>
 
 
 <details>
-  <summary>Solution 1</summary>
+  <summary>S001</summary>
   
   ```bash
 	┌──(x0r㉿kreatur-der-nacht)-[~]
@@ -79,3 +82,4 @@
   ```
 </details>
 
+---
