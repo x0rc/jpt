@@ -11,3 +11,7 @@
 [Vulners](https://vulners.com)
 
 [well-known or system ports](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+[CVSS Scoring](https://nvd.nist.gov/vuln-metrics/cvss) & [NVD calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
+
+[Responder](https://github.com/lgandx/Responder)

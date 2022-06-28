@@ -1,3 +1,7 @@
+`Think Outside The Box!`
+
+---
+
 `Asking good questions is a difficult skill to master, but it's necessary for us in our studies and careers`.
 
 ---
@@ -35,3 +39,10 @@
 ---
 
 `Staying in your comfort zone is easy. Challenging your potential will keep you moving forward.`
+
+---
+
+`.. client will usually remember interactions` during the assessment, communication, and how they were treated/valued by the firm they engage, `not the fancy exploit chain the pentester pulled off to pwn their systems`.
+
+---
+
