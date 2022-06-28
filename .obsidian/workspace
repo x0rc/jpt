@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Words of Wisdom.md",
-            "mode": "source"
+            "file": "docs/01 - Introduction/00 - penetration testing process.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Words of Wisdom.md",
+                "file": "docs/01 - Introduction/00 - penetration testing process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,11 @@
   },
   "active": "1f0416c1d47e64e5",
   "lastOpenFiles": [
+    "docs/01 - Introduction/00 - penetration testing process.md",
+    "Untitled.md",
     "docs/Words of Wisdom.md",
     "Untitled 1.md",
     "docs/index.md",
-    "docs/01 - Introduction/00 - penetration testing process.md",
     "README.md"
   ]
 }
