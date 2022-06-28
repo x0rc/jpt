@@ -61,8 +61,14 @@ In infosec, we usually hear the terms `red team` and `blue team`. In the simples
 | 9. | [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/) | This category is to help detect, escalate, and respond to active breaches. Without logging and monitoring, breaches cannot be detected.. |
 | 10. | [Server-Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) | SSRF flaws occur whenever a web application is fetching a remote resource without validating the user-supplied URL. It allows an attacker to coerce the application to send a crafted request to an unexpected destination, even when protected by a firewall, VPN, or another type of network access control list (ACL).|
 
-
-
+- Web Enumeration
+	- [GoBuster](https://github.com/OJ/gobuster)
+	- [ffuf](https://github.com/ffuf/ffuf) 
+	- [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes). 
+	- [SecLists](https://github.com/danielmiessler/SecLists)
+	- `Whatweb` is a handy tool and contains much functionality to automate web application enumeration across a network.
+	- `robots.txt`
+	- Source Code (`CTRL +U`)
 
 ---
 
@@ -132,3 +138,31 @@ In infosec, we usually hear the terms `red team` and `blue team`. In the simples
 </details>
 
 ---
+
+
+<details>
+  <summary>T002</summary>
+  
+  ```
+	 Target: 206.189.25.173:32360
+
+	1. Try running some of the web enumeration techniques you learned in this section on the server above, and use the info you get to get the flag.
+		- HTB{w3b_3num3r4710n_r3v34l5_53cr375}
+
+  ```
+
+</details>
+
+<details>
+  <summary>S002</summary>
+  
+  ```
+	navigate to /robots.txt
+	![[Pasted image 20220628234958.png]]
+	inspect the source code of the admin page
+	![[Pasted image 20220628235049.png]]
+	log in
+	![[Pasted image 20220628235157.png]]
+  ```
+
+</details>
