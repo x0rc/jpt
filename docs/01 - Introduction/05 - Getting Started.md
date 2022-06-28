@@ -17,7 +17,9 @@
 
 ---
 
-
+<details>
+  <summary>Task 1</summary>
+	
  Target: 10.129.62.97
 
 1. Perform an Nmap scan of the target. What is the version of the service that is running on port 8080?
@@ -28,12 +30,13 @@
 
 3. List the SMB shares available on the target host. Connect to the available share as the bob user. Once connected, access the folder called 'flag' and submit the contents of the flag.txt file.
 
+</details>
+
+
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Solution 1</summary>
   
   ```bash
-	┌──(x0r㉿kreatur-der-nacht)-[~]
-	└─$ cat a
 	┌──(x0r㉿kreatur-der-nacht)-[~]
 	└─$ nmap -sC -sV -p- 10.129.160.49 -oN 1.txt
 	Starting Nmap 7.92 ( https://nmap.org ) at 2022-06-28 21:38 CEST
