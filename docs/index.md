@@ -3,6 +3,7 @@
 
 This is the place where I will post my notes while doing `Penetration Tester Job Role Path` at `academy.hackthebox.com`. This path covers core security assessment concepts and provides a deep understanding of the specialized tools, attack tactics, and methodology used during penetration testing. Armed with the necessary theoretical background and multiple practical exercises, students will go through all penetration testing stages, from `reconnaissance` and `enumeration` to `documentation` and `reporting`.
 
+![[Pasted image 20220628200341.png]]
 
 ## HTB Academy Learning Philosophy
 - Learn by doing.
