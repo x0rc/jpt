@@ -70,6 +70,13 @@ In infosec, we usually hear the terms `red team` and `blue team`. In the simples
 	- `robots.txt`
 	- Source Code (`CTRL +U`)
 
+- Public Exploits
+	- [Exploit DB](https://www.exploit-db.com)
+	- [Rapid7 DB](https://www.rapid7.com/db/)
+	- [Vulnerability Lab](https://www.vulnerability-lab.com)
+	- [searchsploit](https://github.com/offensive-security/exploitdb)
+
+
 ---
 
 <details>

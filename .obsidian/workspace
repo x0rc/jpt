@@ -7,9 +7,17 @@
         "id": "1f0416c1d47e64e5",
         "type": "leaf",
         "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "335f81881f91b10d",
+        "type": "leaf",
+        "state": {
           "type": "image",
           "state": {
-            "file": "docs/images/Pasted image 20220628235157.png"
+            "file": "docs/images/Pasted image 20220628184429.png"
           }
         }
       }
@@ -67,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/images/Pasted image 20220628235157.png",
+                "file": "docs/images/Pasted image 20220628184429.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +93,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1f0416c1d47e64e5",
+  "active": "335f81881f91b10d",
   "lastOpenFiles": [
+    "docs/images/Pasted image 20220628184429.png",
+    "docs/images/Pasted image 20220629002008.png",
+    "docs/images/Pasted image 20220628200341.png",
+    "docs/images/Pasted image 20220629000057.png",
     "docs/images/Pasted image 20220628235157.png",
-    "docs/01 - Introduction/05 - Getting Started.md",
     "docs/images/Pasted image 20220628235049.png",
     "docs/images/Pasted image 20220628234958.png",
-    "docs/01 - Introduction/00 - penetration testing process.md",
-    "docs/00 honeypot/cheatsheets/cheatsheet-77.md",
-    "docs/00 honeypot/Resources.md",
-    "docs/00 honeypot/Links of Links.md",
-    "docs/00 honeypot/Words of Wisdom.md",
-    "docs/00 honeypot/Q & A.md"
+    "docs/01 - Introduction/05 - Getting Started.md",
+    "Untitled.md",
+    "README.md"
   ]
 }
