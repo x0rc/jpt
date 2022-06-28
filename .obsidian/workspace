@@ -7,8 +7,11 @@
         "id": "1f0416c1d47e64e5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "docs/Words of Wisdom.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Words of Wisdom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +88,8 @@
   },
   "active": "1f0416c1d47e64e5",
   "lastOpenFiles": [
+    "docs/Words of Wisdom.md",
     "Untitled 1.md",
-    "docs/takeaways.md",
     "docs/index.md",
     "docs/01 - Introduction/00 - penetration testing process.md",
     "README.md"
