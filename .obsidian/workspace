@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/index.md",
+            "file": "docs/01 - Introduction/00 - penetration testing process.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/01 - Introduction/00 - penetration testing process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1f0416c1d47e64e5",
   "lastOpenFiles": [
+    "docs/01 - Introduction/00 - penetration testing process.md",
     "docs/index.md",
     "README.md"
   ]

@@ -19,6 +19,3 @@ This is the place where I will post my notes while doing `Penetration Tester Job
 
 ## What's next?
 - Specialization? Be it Active Directory, Web, or Reverse Engineering.
-
-
-![[Pasted image 20220628184429.png]]
