@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/00 honeypot/cheatsheets/cheatsheet-77.md",
-            "mode": "preview"
+            "file": "docs/01 - Introduction/05 - Getting Started.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/00 honeypot/cheatsheets/cheatsheet-77.md",
+                "file": "docs/01 - Introduction/05 - Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "1f0416c1d47e64e5",
   "lastOpenFiles": [
-    "docs/00 honeypot/cheatsheets/cheatsheet-77.md",
     "docs/01 - Introduction/05 - Getting Started.md",
+    "docs/00 honeypot/cheatsheets/cheatsheet-77.md",
+    "docs/00 honeypot/Resources.md",
     "docs/01 - Introduction/00 - penetration testing process.md",
     "docs/00 honeypot/Links of Links.md",
     "docs/00 honeypot/Words of Wisdom.md",
-    "docs/00 honeypot/Resources.md",
     "docs/00 honeypot/Q & A.md",
     "docs/index.md",
     "Untitled 1.md",

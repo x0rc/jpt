@@ -15,3 +15,7 @@
 [CVSS Scoring](https://nvd.nist.gov/vuln-metrics/cvss) & [NVD calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
 
 [Responder](https://github.com/lgandx/Responder)
+
+[standalone binary](https://github.com/andrew-d/static-binaries)
+
+[upgrade a shell to a fully interactive TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/#method-2-using-socat)
